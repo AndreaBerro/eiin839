@@ -9,7 +9,7 @@ Il est séparé en trois projets différentes :
 - ClientSOAP
   
 Quand on lance la solution de "Rendu_Final" les trois projets sont lancés en même temps.  
-Une fois le ClientSOAP fermé les serveurs se ferment aussi (donc il faut laisser le client ouvert pour tester le serveur REST).
+Une fois le ClientSOAP fermé les serveurs se ferment aussi (donc il faut laisser le client ouvert pour tester le serveur REST).  
 Les projets peuvent etre lancés individuellement a partir des solutions dans "src".
 
 ## Partie SOAP  
