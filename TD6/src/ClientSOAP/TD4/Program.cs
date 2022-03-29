@@ -18,6 +18,7 @@ namespace TD4
             //test soustraction
             int a = 10;
             int b = 7;
+            Console.WriteLine("Soustraction de "+ a + " - " + b);
             int result = client.substract(a, b);
             Console.WriteLine("résultat : " + result);
             Console.WriteLine("attendu : " + (a - b) + "\n");
@@ -26,6 +27,7 @@ namespace TD4
             //test addition
             a = 1;
             b = 2;
+            Console.WriteLine("Addition de " + a + " + " + b);
             result = client.add(a, b);
             Console.WriteLine("résultat : " + result);
             Console.WriteLine("attendu : " + (a + b) + "\n");
@@ -34,11 +36,15 @@ namespace TD4
             //test multiplication
             a = 2;
             b = 2;
+            Console.WriteLine("Multiplication de " + a + " * " + b);
             result = client.multiply(a, b);
             Console.WriteLine("résultat : " + result);
             Console.WriteLine("attendu : " + (a * b) + "\n");
             Console.ReadKey();
 
+            //fin
+            Console.WriteLine("[Appuyer sur Enter pour arreter (Serveur et Client)] \n");
+            Console.ReadKey();
         }
     }
 }

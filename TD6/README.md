@@ -2,10 +2,15 @@ Author : Berro Andréa
 
 # Rendu Serveur SOAP ET REST  
   
-Le rendu est séparé en trois solutions différentes :  
+Le rendu est disponible dans "Rendu_Final".  
+Il est séparé en trois projets différentes :  
 - MathsLibrairySOAP
 - MathsLibrairyREST
 - ClientSOAP
+  
+Quand on lance la solution de "Rendu_Final" les trois projets sont lancés en même temps.  
+Une fois le ClientSOAP fermé les serveurs se ferment aussi (donc il faut laisser le client ouvert pour tester le serveur REST).
+Les projets peuvent etre lancés individuellement a partir des solutions dans "src".
 
 ## Partie SOAP  
 MathsLibrarySOAP est un serveur SOAP qui permet de faire des opérations mathématiques.  
