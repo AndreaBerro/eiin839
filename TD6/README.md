@@ -18,7 +18,7 @@ Le clientSOAP est un client SOAP qui permet de test le serveur SOAP.
 Le serveur SOAP doit etre lancé avant le clientSOAP.  
 
 ## Partie REST
-MathsLibraryREST est un serveur REST qui permet de faire des opérations mathématiques (meme chose que SOAP).  
+MathsLibraryREST est un serveur REST qui permet de faire des opérations mathématiques (meme methodes chose que SOAP).  
   
 Les routes get pour tester le serveur REST sont:  
 - http://localhost:8733/Design_Time_Addresses/MathsLibrary/MathsOperations/Add?a=1&b=2  
