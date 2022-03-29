@@ -1,18 +1,18 @@
 Author : Berro Andréa
 
-## Rendu Serveur SOAP ET REST  
+# Rendu Serveur SOAP ET REST  
   
 Le rendu est séparé en trois solutions différentes :  
 - MathsLibrairySOAP
 - MathsLibrairyREST
 - ClientSOAP
 
-# Partie SOAP  
+## Partie SOAP  
 MathsLibrarySOAP est un serveur SOAP qui permet de faire des opérations mathématiques.  
 Le clientSOAP est un client SOAP qui permet de test le serveur SOAP.  
 Le serveur SOAP doit etre lancé avant le clientSOAP.  
 
-# Partie REST
+## Partie REST
 MathsLibraryREST est un serveur REST qui permet de faire des opérations mathématiques (meme chose que SOAP).  
   
 Les routes get pour tester le serveur REST sont:  
