@@ -3,7 +3,7 @@ Author : Berro Andréa
 # Rendu Serveur SOAP ET REST  
   
 Le rendu est disponible dans "Rendu_Final".  
-Il est séparé en trois projets différentes :  
+Il est séparé en trois projets différents :  
 - MathsLibrairySOAP
 - MathsLibrairyREST
 - ClientSOAP
